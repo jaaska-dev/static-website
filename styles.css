@@ -408,3 +408,40 @@
     top: 350px;
     left: 30px;
   }
+
+  .services__card p {
+    position: absolute;
+    top: 400px;
+    left: 30px;
+  }
+
+  .services__card button {
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    background: #f77062;
+    position: absolute; 
+    top: 440px;
+    left: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  .services__card:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 960px) {
+    .services {
+      height: 1600px;
+    }
+
+    .services h1 {
+      font-size: 2rem;
+      margin-top: 12rem;
+    }
+  }
