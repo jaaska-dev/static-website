@@ -86,7 +86,7 @@
   width: 100%;
   border: none;
   outline: none;
-  border-radius: 4p;
+  border-radius: 7px;
   background: #f77062;
   color: white;
 }
@@ -184,15 +184,17 @@
     cursor: pointer;
   }
 
-  #mobile-menu.is_active .bar:nth-child(2) {
+  #mobile-menu.is-active .bar:nth-child(2) {
     opacity: 0;
   }
 
-  #mobile-menu.is_active .bar:nth-child(1) {
+  #mobile-menu.is-active .bar:nth-child(1) {
     transform: translateY(8px) rotate(45deg);
   }
 
-  #mobile-menu.is_active .bar:nth-child(3) {
+  #mobile-menu.is-active .bar:nth-child(3) {
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+
+/* HERO Section CSS */
